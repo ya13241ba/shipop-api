@@ -82,10 +82,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'your-db-name',
-        'CLIENT': {
-           'host': 'your-db-host',
-        }
+        'NAME': 'shipop',
     }
 }
 
